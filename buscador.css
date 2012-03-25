@@ -1,0 +1,136 @@
+/* @override http://estaticos.expansion.com/pruebas/rd/estilos/v2.x/v2.0/buscador.css */
+
+/* ESTILOS PARA LAS PÁGINAS DEL BUSCADOR */
+h1 a:link, h1 a:visited, h1 a:active,
+h2 a:link, h2 a:visited, h2 a:active,
+h3 a:link, h3 a:visited, h3 a:active,
+h5 a:link, h5 a:visited, h4 a:active,
+table a:link, table a:visited, table a:active{color:#369 !important;}
+
+#buscador .modulo.seccion a, #buscador .modulo.ano a, #buscador .modulo.personaje a, #hemeroteca .modulo.seccion a, #hemeroteca .modulo.ano a, #hemeroteca .modulo.personaje a {color:#000 !important;}
+
+#buscador .modulo.seccion a:hover, #buscador .modulo.ano a:hover, #buscador .modulo.personaje a:hover, #hemeroteca .modulo.seccion a:hover, #hemeroteca .modulo.ano a:hover, #hemeroteca .modulo.personaje a:hover {color:#12668c!important;}
+#buscador .modulo.seccion li, #hemeroteca .modulo.seccion li {background:transparent url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/bolo_blue.png) no-repeat left 5px;padding-left:15px;}
+
+.bloque.resultados_buscador {border-color:#369 #BBB #BBB;border-style:solid;border-width:3px 1px 1px;margin-bottom:10px;overflow:hidden;padding-bottom:0;position:relative;}
+.bloque.resultados_buscador h5 {background:transparent url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/fondos/fondo_tabla_par.gif) repeat-x scroll left bottom;
+border-bottom:1px solid #D7CCBE;color:#369;font-family:Arial;font-size:18px;font-weight:bold;line-height:20px;margin:0 0 5px;padding:4px 0 5px 10px;}
+.bloque.resultados_buscador .doble.derecha, .bloque.resultados_buscador .doble.izquierda {padding:0px;}
+.bloque.resultados_buscador #cotizaciones_busqueda {height:165px;}
+.bloque.resultados_buscador .doble.derecha td.sube {text-align:right;}
+.bloque.resultados_buscador .destacado {background:#FFF1E0;overflow:hidden;border:1px solid #ddd;padding:5px;margin:20px 10px 0px 15px;}
+.bloque.resultados_buscador .destacado h2 {font-size:16px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;color:#222;margin:0;text-transform:uppercase}
+.bloque.resultados_buscador .caja_buscador {background:#FFF1E0;overflow:hidden;border:1px solid #ddd;padding:6px 5px 1px  6px;margin:20px 15px 0px 15px}
+.bloque.resultados_buscador .caja_buscador input {border:1px solid #CCCACA!important;padding:5px!important;}
+.bloque.resultados_buscador .caja_buscador input.boton {border:0!important;height:26px;background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_input_boton_h24.png)!important;border:0 none;}
+.bloque.resultados_buscador .caja_buscador input.boton:hover {background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_input_boton_h24_hover.png)!important;}
+
+#modulo_buscador {clear:both;border:none !important;padding-bottom:30px;}
+
+#buscador_expansion {padding:15px;clear:both;}
+#buscador_expansion li {display: block;overflow: hidden;padding:10px 0;border-bottom: 1px dotted #DDD;}
+#buscador_expansion li:first-child {border-top:1px dotted #ddd}
+#buscador_expansion li .media {float: right;margin-left: 10px;}
+#buscador_expansion li h2 {color:#333333;font-family:Georgia,Times,Serif;text-transform:none!important;line-height:20px;font-size:18px;font-weight:normal;}
+#buscador_expansion li h2 a {color:#222 !important;}
+#buscador_expansion li h2 a:hover {color:#12668c !important;}
+#modulo_buscador .modulo {border:0!important}
+.modulo.anuncios_google {border:0!important}
+
+.mensaje {border: 1px solid rgb(221, 221, 221); margin: 20px 15px 0px; padding: 10px 5px 10px 6px; background: rgb(255, 241, 224) none repeat 0pt 0pt; overflow: hidden;}
+.mensaje a {font-size:18px!important;color:#222!important}  
+
+.campo {margin: 0pt 10px 10px 5px;padding: 2px 2px 2px 6px;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;color: black;background-color: rgb(238, 238, 238);}
+
+.tit_resultado {font-size: 36px;line-height: 38px;color: #333;margin: 0 0 5px;font-family: Arial;padding: 4px 0 5px 10px;	border-bottom: 1px solid #E3E3E3;font-weight: bold;background: transparent url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/fondos/fondo_tabla_par.gif) repeat-x bottom left;}
+
+.modulo_resultados_buscador {position: relative;}
+
+.coinciden {float:left;margin:10px 0 0;padding:3px;border:none !important;font:normal 11px/13px Arial, Helvetica, Sans-serif; color: #666;font-weight:bold;}
+
+ul.busqueda{display:block;overflow:hidden;padding:5px 15px 10px 0;margin:0;font:normal 11px/13px Arial, Helvetica, Sans-serif;color:#666;}
+.sugerencias {float:left;overflow:hidden;padding:0px 3px 0px;margin:0;font:normal 11px/13px Arial, Helvetica, Sans-serif;color:#666;font-weight:bold;}
+ul.busqueda {border:none;}
+ul.busqueda li {float:left;display:inline;border-left:1px dotted #CCC;padding:0 2px;}
+ul.busqueda li:first-child {padding-left:0;border:0}
+ul.busqueda li:first-child a {padding-left:0;}
+ul.busqueda a,.sugerencias a {display: inline;padding: 4px 4px 5px !important;}
+
+
+.paginacion {display:block;overflow:hidden;padding:10px 15px;margin:0;font-weight:normal;font-size:11px;font-family:Arial, Helvetica, Sans-serif;color:#666;}
+.paginacion li {float:left}
+.paginacion a {display:inline;float: left;color: #666!important;padding: 2px 7px 2px !important;margin: 0 0 0 2px !important;border:1px solid #DDDDDD;}
+.paginacion a:hover {border:1px solid #999}
+.paginacion li.siguiente {display:inline;float:right;}
+
+.submenu_noticias_busqueda {display:block;overflow:hidden;margin:0;font-size:12px;color:#369;padding:10px 10px 0;position:relative;}
+.submenu_noticias_busqueda .columna {float:left;margin:12px 0 0 5px;background:#369 none repeat 0 0;border:1px solid #999;color:#FFF !important;font-size:11px;font-weight:normal;padding:2px 5px;}
+.submenu_noticias_busqueda .ordenar {padding:5px;}
+
+.ficha_valor .datos_empresa .baja {color:#FF0000;background:url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/botones/baja.png) no-repeat center;text-align:right;}
+.ficha_valor .datos_empresa .sube {color:#00FF00;background:url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/botones/sube.png) no-repeat center;text-align:right;}
+.ficha_valor .datos_empresa .baja span, .ficha_valor .datos_empresa .sube span {padding-left:25px;}
+.ficha_valor .datos_empresa table {border:1px solid #CCCCCC !important;padding:0px !important;}
+.ficha_valor .datos_empresa table tr td {padding:3px !important;}
+
+body#buscador #paginacion {padding:0;margin:0!important}
+body#buscador #paginacion.primer_elemento {padding:13px 0 0 0 !important;float:right;margin:0;clear:none}
+body#buscador .buscador_consultas input#consulta {width:210px;}
+
+#modulo_buscador_avanzado span.sub_label {margin:0 5px;}
+.modulo.buscador_avanzado .login {background:#FFF none repeat 0 0;border:1px solid #EAE6E5;margin-bottom:20px;overflow:hidden;padding:10px;}
+
+.modulo.seccion .acordeon, .modulo.ano .acordeon, .modulo.personaje .acordeon {min-height:0px !important;position:static !important;}
+.modulo.seccion .acordeon .header a.ampliar_informacion, .modulo.ano .acordeon .header a.ampliar_informacion, .modulo.personaje .acordeon .header a.ampliar_informacion {width:70% !important;background-position:right top !important;	text-indent:140px !important;font-size:10px !important;font-family:Arial, Helvetica, sans-serif !important;line-height:12px;left:82px !important;}
+
+#modulo_buscador #paginacion .active {border:none;padding:0px!important;margin:0 5px 0 0!important}
+#modulo_buscador #paginacion .active a {border:1px solid #ddd;background-color:#336699;color:#FFFFFF;}
+
+.filtros {border:1px solid #bbb;padding:5px 10px 10px 10px;margin-bottom:10px;}
+.filtros p {line-height:25px !important;color:#336699 !important;}
+
+<!--- estilos Google ---->
+.cajamostrando div {background-color:#EEE;color:#000;font-size:12px;margin:10px;padding:3px 5px;}
+.cajamostrando img {float:right;}
+.epcaja {overflow:hidden;color:#ccc;border:1px solid #ccc;}
+.epcaja h2 {background:#EEEEEE;padding:3px 5px !important;}
+.epconjuntoenlace {float:left;width:300px;margin:0 0 5px;padding:3px 10px 0 7px;}
+.epcaja .epconjuntoenlace h3 a {font-weight:bold !important;color:#003399 !important;}
+.epcaja .epconjuntoenlace p a {color:#000 !important;}
+.epcaja .epconjuntoenlace p a.enlace {color:#3F7E00 !important;}
+.item_pestana.activaJs#google {width:78px;height:22px;background:transparent url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/botones/boton_google_activa.png) no-repeat right top;}
+.item_pestana#google {background:url(http://estaticos.expansion.com/pruebas/rd/iconos/v2.x/v2.0/botones/boton_google.png) no-repeat left top;}
+.item_pestana#google a {background:none;width:75px;height:18px;text-indent:-9999px;}
+.item_pestana.activaJs#google a {text-indent:-999px;}
+
+.bloque #buscador_expansion .tablasresultados {margin:25px 15px;}
+.bloque #buscador_expansion blockquote {margin:25px 40px;} 
+.tablasresultados h2 a.titulopagina {font-size:16px !important;text-transform:none !important;color:#0718D8 !important;font-weight:normal;margin:0 0 4px;text-decoration:underline;}
+.tablasresultados p {color:#000 !important;}
+.tablasresultados p a {color:#3F7E00 !important;}
+.buscador_consultas fieldset input.boton {margin-left:10px;}
+
+.resultados-buscador .metadatos {color:#AAA;font-weight:bold;overflow:hidden;}
+.resultados-buscador .metadatos .firma {font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:normal;line-height:12px;margin:0 4px 0 0;padding:0;vertical-align:bottom}
+.resultados-buscador .metadatos .coincidencia {border-left:1px dotted #CCC;padding-left:8px;}
+.resultados-buscador .mensaje {border:1px solid #ddd; padding: 5px 5px 0pt 10px; background:#FFF1E0 none repeat 0pt 0pt;}
+.metadatos .noticia, .metadatos .noticiablog, .metadatos .noticiapro {float:left;margin:0 5px 12px 0;padding:0 5px 0 20px;color:#369;border:0;text-transform:uppercase;font-weight:normal;}
+.metadatos .noticia {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_apoyo_texto.png) no-repeat left center transparent;}
+.metadatos .noticiablog {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_apoyo_blog.png) no-repeat left center transparent;}
+.metadatos .noticiapro {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_apoyo_pro.png) no-repeat left center transparent;}
+
+form.buscador_consultas {float:left;margin-top:14px;}
+
+.wrap.interior form.buscador_consultas {margin-top:0px;}
+
+.modulo.instrucciones .wrap.interior ul {overflow:visible;}
+
+/* Resultados Buscador Pestaña Google */
+#cse-search-results {padding:5px;}
+
+/* Botón alerta de noticias */
+.bloque.resultados_buscador h1 {padding-right:118px!important;}
+.bloque.resultados_buscador h1 span {display:block;font-size:18px;line-height:24px;}
+.bloque.resultados_buscador .alerta {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/btn_alerta.png") no-repeat 0 0 transparent;height: 21px;padding: 0;width: 96px;position:absolute;top:40px;right:10px;}
+.bloque.resultados_buscador .alerta:hover {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/btn_alerta.png")}
+.bloque.resultados_buscador .alerta a {display:block;text-indent:-9999px}

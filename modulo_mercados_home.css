@@ -1,0 +1,56 @@
+#modulo_ibex .suben_bajan {border-left: 1px solid #BBB;border-right: 1px solid #BBB;border-bottom: 1px solid #BBB;}
+#modulo_ibex .suben_bajan li {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_fila_tabla_suben_bajan.png") repeat-x left bottom transparent;border-bottom:0 none;border-top: 1px solid #BBB;float: left;width: 100%;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#modulo_ibex .suben_bajan li .posicion {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_posicion.png") no-repeat left bottom transparent;color: #FFF;float: left;margin: 3px 0 0 3px;padding: 3px 0;text-align: center;width: 22px;}
+#modulo_ibex .suben_bajan li a {color: #333;float: left;font-weight: bold;height: 16px;overflow: hidden;padding: 5px 5px 4px;width: 99px;}
+#modulo_ibex .suben_bajan li a:hover {color:#369}
+#modulo_ibex .suben_bajan li .positiva, 
+#modulo_ibex .suben_bajan li .negativa {float:right;font-size:11px;padding:5px 5px 4px;}
+.destacado_mercados .suben h6 {color: #5D8C00;font-weight: bold;}
+#modulo_ibex h6 {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_encabezado_suben_bajan.png") repeat-x left bottom transparent;color:#333;font-size:12px;font-weight:bold;height: 15px;padding: 5px;margin:0;border-right:1px solid #bbb;border-left:1px solid #bbb;text-transform:none}
+	
+#modulo_ibex .dato_ibex {padding:0;font-family:Arial, Helvetica, sans-serif;color:#fff;overflow:hidden;}
+#modulo_ibex .dato_ibex a {color:#fff;}
+#modulo_ibex .dato_ibex.sube {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_fila_tabla_indices_sube.png") repeat-x left bottom transparent}
+#modulo_ibex .dato_ibex.baja {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_fila_tabla_indices_baja.png") repeat-x left bottom transparent}
+#modulo_ibex .dato_ibex.sube .valor {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_sube_dato_ibex.png") no-repeat left bottom transparent;}
+#modulo_ibex .dato_ibex.baja .valor {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_baja_dato_ibex.png") no-repeat left bottom transparent;}
+#modulo_ibex .dato_ibex span {float:left;width:72px;text-align:center;padding:6px 0}
+#modulo_ibex .dato_ibex .valor {font-weight:bold;text-align:left;width:50px;padding-left:38px;}
+#modulo_ibex .dato_ibex .hora {background:none!important;font-size:12px;line-height:inherit;margin:0;text-align:right;width:40px}
+
+
+#modulo_ibex table {border:1px solid #bbb;margin:5px 0 0!important}
+#modulo_ibex table td {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_fila_tabla_suben_bajan.png") repeat-x left bottom transparent;border-bottom: 0 none;border-top: 1px solid #BBB;font-family: Arial,Helvetica,sans-serif;font-size:11px;padding:5px 5px 4px}
+#modulo_ibex .indices_internacionales table td.sube {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/sube.png") no-repeat left top !important;}
+#modulo_ibex table th {border:0}
+#modulo_ibex table td a {font-size:12px;}
+#modulo_ibex table .sube,
+#modulo_ibex table .baja {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_fila_tabla_suben_bajan.png") repeat-x left bottom transparent!important;padding:0}
+#modulo_ibex table .sube span,
+#modulo_ibex table .baja span {color: #FFF;float: left;margin: 3px 0 0 3px;padding: 0;height:22px;text-align:center;width: 22px;}
+#modulo_ibex table .sube span {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_modulo_mercados_home.png") no-repeat left bottom transparent!important}
+#modulo_ibex table .baja span {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_modulo_mercados_home.png") no-repeat left bottom transparent!important}
+
+.pestana3_GDP {display:none}
+.pestana3_GDP.activaJs {display:block!important;}
+
+#modulo_ibex .navegacion_mejores_peores {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_navegacion_mejores_peores.png") repeat-x left top;margin:0;padding:0;border-style:solid;border-width:1px 1px 0 1px;border-color:#bbb}
+#modulo_ibex .navegacion_mejores_peores li {width:137px;height:24px;border-left:1px solid #bbb;text-align:center;margin:0!important;padding:0!important;background:none}
+#modulo_ibex .navegacion_mejores_peores li:first-child {border-left:0}
+#modulo_ibex .navegacion_mejores_peores li a {float:left;width:100%;font-size:12px;background:none;padding:6px 0 4px!important;*padding:5px 0!important;color:#666!important}
+#modulo_ibex .navegacion_mejores_peores li.activaJs {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/destacado_mercados/bg_encabezado_suben_bajan.png") repeat-x left bottom transparent}
+#modulo_ibex .navegacion_mejores_peores li.activaJs a {color:#000!important;font-weight:bold}
+#modulo_ibex .navegacion_mejores_peores li.activaJs a:hover {color:#000!important;}
+#modulo_ibex .navegacion_mejores_peores li a:hover {color:#333!important}
+
+/* para versión en 2 columnas */
+#modulo_ibex .mejores {float:left;border-left: 1px solid #BBB;width:138px;}
+#modulo_ibex .mejores h6 {color:#5d8c00!important}
+#modulo_ibex h6 span {color:#999!important;font-weight:normal!important}
+#modulo_ibex .peores {float:right;width:139px;}
+#modulo_ibex .peores h6 {color:#cc3300!important}
+#modulo_ibex .mejores, #modulo_ibex .peores {overflow:hidden;}
+#modulo_ibex .mejores li a, #modulo_ibex .peores li a {width:63px!important;padding: 5px 2px 4px 4px!important;}
+#modulo_ibex .suben_bajan li .positiva, #modulo_ibex .suben_bajan li .negativa {padding: 5px 2px 4px 5px!important;}
+#modulo_ibex h6 {border-left:0!important}
+#modulo_ibex .suben_bajan {border-left:0!important}

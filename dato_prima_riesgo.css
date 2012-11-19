@@ -1,0 +1,215 @@
+#dato_prima_riesgo_nuevo,
+#dato_ibex_nuevo,
+#dato_ibex_nuevo_w300,
+#dato_ibex_nuevo_w360 {
+	border:1px solid #c5c5c5!important;
+	background:#f4f4f4;
+	margin:0 0 15px;
+	padding:0;
+	color: #841205;
+	font: bold 46px/30px Arial, Helvetica, sans-serif;
+	height: 92px;
+	text-align: center;
+	width: 185px;
+	-webkit-border-radius: 5px; 
+	   -moz-border-radius: 5px; 
+			border-radius: 5px;
+	-webkit-box-shadow: 0 8px 6px -6px #222;
+	   -moz-box-shadow: 0 8px 6px -6px #222;
+			box-shadow: 0 8px 6px -6px #222;	
+}
+#dato_ibex_nuevo {
+	width:225px;
+}
+#dato_ibex_nuevo_w300 {
+	width:298px;	
+}
+#dato_ibex_nuevo_w360 {
+	width:358px;	
+}
+
+/* Para noticias relacionadas +3  */
+.destacado.ancho_cuerpo .relacionadas .noticia.simple #dato_ibex_nuevo {
+	width:212px;
+}
+.destacado.ancho_cuerpo .relacionadas .noticia.doble #dato_ibex_nuevo .dato.sube span,
+.destacado.ancho_cuerpo .relacionadas .noticia.doble #dato_ibex_nuevo .dato.baja span {
+	background-position: 5px center;	
+}
+
+/*
+.destacado.ancho_cuerpo .relacionadas .noticia.doble #dato_ibex_nuevo .dato.sube span {
+	background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_sube_dato_ibex_nuevo.png") no-repeat 55px center transparent;
+}
+.destacado.ancho_cuerpo .relacionadas .noticia.doble #dato_ibex_nuevo .dato.baja span {
+	background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_baja_dato_ibex_nuevo.png") no-repeat 55px center transparent;
+}*/
+
+
+#dato_prima_riesgo_nuevo .cintillo,
+#dato_ibex_nuevo .cintillo,
+#dato_ibex_nuevo_w300 .cintillo,
+#dato_ibex_nuevo_w360 .cintillo {
+	text-align:center;
+	padding:5px 0;
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+	-webkit-border-radius: 5px 5px 0 0; 
+	   -moz-border-radius: 5px 5px 0 0; 
+			border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #c5c5c5;
+	border-top: 0;
+	background-color: #dddddd; 
+	background-position: left top;
+	background-image: none; 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f2f2f2), to(#dddddd));
+	background-image: -webkit-linear-gradient(top, #f2f2f2, #dddddd); 
+	background-image:    -moz-linear-gradient(top, #f2f2f2, #dddddd);
+	background-image:     -ms-linear-gradient(top, #f2f2f2, #dddddd);
+	background-image:      -o-linear-gradient(top, #f2f2f2, #dddddd);
+}
+#dato_prima_riesgo_nuevo .dato,
+#dato_ibex_nuevo .dato,
+#dato_ibex_nuevo_w300 .dato,
+#dato_ibex_nuevo_w360 .dato {
+	*height:50px;
+	margin:5px;
+	font-size:40px;
+	line-height:50px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	-webkit-border-radius: 5px; 
+	   -moz-border-radius: 5px; 
+			border-radius: 5px;
+	text-shadow: 0 1px #333;
+}
+#dato_prima_riesgo_nuevo .dato.sube {
+	border:1px solid #d13602;
+	background-color: transparent; 
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_rojo_dato_prima_riesgo.png); 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ec6335), to(#c43100));
+	background-image: -webkit-linear-gradient(top, #ec6335 15%, #c43100 100%); 
+	background-image:    -moz-linear-gradient(top, #ec6335 15%, #c43100 100%);
+	background-image:     -ms-linear-gradient(top, #ec6335 15%, #c43100 100%);
+	background-image:      -o-linear-gradient(top, #ec6335 15%, #c43100 100%);
+}
+#dato_ibex_nuevo .dato.sube,
+#dato_ibex_nuevo_w300 .dato.sube,
+#dato_ibex_nuevo_w360 .dato.sube {
+	border:1px solid #81ba03;
+	background-color: transparent; 
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_verde_dato_prima_riesgo.png); 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9dd523), to(#6b9d00));
+	background-image: -webkit-linear-gradient(top, #9dd523 15%, #6b9d00 100%); 
+	background-image:    -moz-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+	background-image:     -ms-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+	background-image:      -o-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+}
+#dato_prima_riesgo_nuevo .dato.sube span {
+	background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_sube_dato_prima_riesgo.png") no-repeat 5px center transparent;
+}
+#dato_ibex_nuevo .dato.sube span,
+#dato_ibex_nuevo_w300 .dato.sube span,
+#dato_ibex_nuevo_w360 .dato.sube span {
+	background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_sube_dato_ibex_nuevo.png") no-repeat 5px center transparent;
+}
+#dato_prima_riesgo_nuevo .dato.baja {
+	border:1px solid #81ba03;
+	background-color: transparent; 
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_verde_dato_prima_riesgo.png); 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9dd523), to(#6b9d00));
+	background-image: -webkit-linear-gradient(top, #9dd523 15%, #6b9d00 100%); 
+	background-image:    -moz-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+	background-image:     -ms-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+	background-image:      -o-linear-gradient(top, #9dd523 15%, #6b9d00 100%);
+}
+#dato_ibex_nuevo .dato.baja,
+#dato_ibex_nuevo_w300 .dato.baja,
+#dato_ibex_nuevo_w360 .dato.baja {
+	border:1px solid #d13602;
+	background-color: transparent; 
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-image: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_rojo_dato_prima_riesgo.png); 
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ec6335), to(#c43100));
+	background-image: -webkit-linear-gradient(top, #ec6335 15%, #c43100 100%); 
+	background-image:    -moz-linear-gradient(top, #ec6335 15%, #c43100 100%);
+	background-image:     -ms-linear-gradient(top, #ec6335 15%, #c43100 100%);
+	background-image:      -o-linear-gradient(top, #ec6335 15%, #c43100 100%);
+}
+#dato_prima_riesgo_nuevo .dato span,
+#dato_ibex_nuevo .dato span,
+#dato_ibex_nuevo_w300 .dato span,
+#dato_ibex_nuevo_w360 .dato span {
+	display:block;
+	padding-left:45px;
+	letter-spacing:-1px;
+}
+#dato_ibex_nuevo_w300 .dato,
+#dato_ibex_nuevo_w360 .dato {
+	text-align:left;
+}
+#dato_ibex_nuevo_w300 .dato span,
+#dato_ibex_nuevo_w360 .dato span {
+	padding-left:60px;
+}
+#dato_ibex_nuevo_w300 .dato span.cotizacion,
+#dato_ibex_nuevo_w300 .dato span.ultimo,
+#dato_ibex_nuevo_w360 .dato span.cotizacion,
+#dato_ibex_nuevo_w360 .dato span.ultimo,
+#dato_ibex_nuevo_w360 .dato span.variacion,
+#dato_ibex_nuevo_w360 .dato span.valor_variacion {
+	background:none;	
+	position:absolute;
+}
+#dato_ibex_nuevo_w300 .dato span.cotizacion,
+#dato_ibex_nuevo_w300 .dato span.ultimo,
+#dato_ibex_nuevo_w360 .dato span.variacion,
+#dato_ibex_nuevo_w360 .dato span.valor_variacion {
+	left:210px;
+}
+#dato_ibex_nuevo_w360 .dato span.variacion,
+#dato_ibex_nuevo_w360 .dato span.valor_variacion {
+	left:205px;
+}
+#dato_ibex_nuevo_w360 .dato span.cotizacion,
+#dato_ibex_nuevo_w360 .dato span.ultimo {
+	left:272px;
+}
+#dato_ibex_nuevo_w300 .dato span.cotizacion,
+#dato_ibex_nuevo_w360 .dato span.cotizacion,
+#dato_ibex_nuevo_w360 .dato span.valor_variacion {
+	top:45px;
+	font-size:20px;	
+	font-weight:bold!important;
+	line-height:50px;
+	padding:0!important;
+}
+#dato_ibex_nuevo_w300 .dato span.ultimo,
+#dato_ibex_nuevo_w360 .dato span.ultimo,
+#dato_ibex_nuevo_w360 .dato span.variacion {
+	top:26px;
+	font-size:14px;	
+	font-weight:normal;
+	padding:0!important;
+}
+#dato_prima_riesgo_nuevo .dato span {
+	background: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_baja_dato_prima_riesgo.png) no-repeat 10px center;
+}
+#dato_ibex_nuevo .dato span,
+#dato_ibex_nuevo_w300 .dato span,
+#dato_ibex_nuevo_w360 .dato span {
+	background: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_flecha_baja_dato_ibex_nuevo.png) no-repeat 10px center;
+}
+#dato_ibex_nuevo_w300 .dato span,
+#dato_ibex_nuevo_w360 .dato span {
+	background-position: 5px center;
+}

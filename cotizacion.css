@@ -1,0 +1,44 @@
+/* Cotización IBEX dentro de imagen en noticia */
+.cotizacion_ibex {position:absolute;top:0;left:0;height:91px;width:170px;padding:59px 75px 0 55px!important;color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:26px;font-weight:bold;text-align:center;line-height:30px;text-shadow:#000 2px 0px 4px; /*Color de la sombra - Eje X - Eje Y - Difuminado*/}
+
+.destacado.ancho_completo .cotizacion_ibex {padding:59px 45px 0 25px!important;}
+
+
+.cotizacion_ibex.baja {background:url(http://www.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_ibex4.png) no-repeat center center;}
+.cotizacion_ibex.sube {background:url(http://www.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_cotizacion_ibex.png) no-repeat center center;}
+
+.media .cotizacion {position:absolute;height:52px;width:auto;padding:0 0 0 55px!important;color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:21px;font-weight:normal;line-height:49px;background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_ibex_nuevo_izq.png) no-repeat left center;}
+.media .cotizacion span {padding:16px 18px 16px 10px;font-weight:bold}
+.media .cotizacion span .valor {font-style:normal;font-weight:bold}
+.media .cotizacion.baja {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_ibex_nuevo_izq.png) no-repeat left bottom;}
+.media .cotizacion.baja span {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_ibex_nuevo_dcha.png) no-repeat right center;}
+.media .cotizacion.sube {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_cotizacion_ibex_nuevo_izq.png) no-repeat left bottom;}
+.media .cotizacion.sube span {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_cotizacion_ibex_nuevo_dcha.png) no-repeat right center;}
+.inferior_izq {bottom:0;left:0;}
+.inferior_dcha {bottom:0;right:0;}
+.superior_izq {top:5px;left:0;}
+.superior_dcha {top:5px;right:0;}
+.centrado {right:30px;bottom:65px;}
+.contenido_primario .centrado,
+.contenido_secundario .centrado {right:55px;bottom:50px;}
+.contenido_secundario .centrado {right:30px;}
+
+
+/* Cotización IBEX con gráfico integrado */
+.media .cotizacion_con_grafico {overflow:hidden;border:1px solid #bbb;margin-bottom:10px;}
+.media .cotizacion_con_grafico span {float:left;height:35px;width:100%;padding:0 16px 0 8px}
+.media .cotizacion_con_grafico span .valor {font-style:normal;font-weight:bold}
+.media .cotizacion_con_grafico .baja,
+.media .cotizacion_con_grafico .sube {height:35px;width:auto;padding:0 0 0 39px!important;color:#fff;font-family:Arial, Helvetica, sans-serif;font-size:18px;font-weight:normal;line-height:37px;overflow:hidden;}
+.media .cotizacion_con_grafico .baja {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_con_grafico_izq.png) no-repeat left top #cc3300;}
+.media .cotizacion_con_grafico .sube {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_cotizacion_con_grafico_izq.png) no-repeat left top;}
+.media .cotizacion_con_grafico .baja span {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_baja_cotizacion_con_grafico_dcha.png) no-repeat right top;}
+.media .cotizacion_con_grafico .sube span {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_sube_cotizacion_con_grafico_dcha.png) no-repeat right top;}
+.media .cotizacion_con_grafico .otros_datos {padding:10px;background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_otros_datos_cotizacion_con_grafico.png) repeat-x left bottom;height:15px;width:100%;overflow:hidden;color:#333}
+.media .cotizacion_con_grafico .otros_datos span {background:none;float:none;color:#999;font-family:Arial, Helvetica, sans-serif;padding:0 10px 0 0!important}
+.media .cotizacion_con_grafico .otros_datos span em {font-size:16px;color:#333;font-style:normal;font-weight:bold}
+.media .cotizacion_con_grafico .otros_datos .sube,
+.media .cotizacion_con_grafico .otros_datos .baja {background:none;padding:0!important;line-height:16px!important;margin:0}
+.media .cotizacion_con_grafico .otros_datos .sube {color:#77af00;}
+.media .cotizacion_con_grafico .otros_datos .baja {color:#cc3300;}
+.media .cotizacion_con_grafico .grafico {padding:10px;*padding:10px 3px;width:100%}

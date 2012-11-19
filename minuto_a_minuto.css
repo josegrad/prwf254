@@ -1,0 +1,300 @@
+/* DIRECTO NOTICIA */
+.directo_noticia, .cronica_bolsa {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/fondo_body_gris_reducido.png") repeat-x left top #FFF;}
+
+.directo_noticia .contenido_superior, .cronica_bolsa .contenido_superior {padding-bottom:26px;margin:0;padding-top:0}
+.cronica_bolsa .contenido_superior {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/fondo_contenido_superior_cronica_bolsa.png") repeat-x left top #FFF;}
+.directo_noticia .contenido_superior {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/fondo_contenido_superior_directo_noticia.png") repeat-x left top #FFF;}
+
+.directo_noticia .wrap.cabecera, .cronica_bolsa .wrap.cabecera {height:72px;}
+.directo_noticia .wrap.cabecera {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_cabecera_directo_noticia.png") no-repeat right top transparent;}
+.cronica_bolsa .wrap.cabecera {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_cabecera_cronica_bolsa.png") no-repeat right top transparent;}
+
+.directo_noticia .wrap.cabecera .seccion, .cronica_bolsa .wrap.cabecera .seccion {width:990px;height:72px;float:left;text-indent:-9999px} 
+.directo_noticia .wrap.cabecera .seccion {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_titular_directo_noticia.png") no-repeat left top transparent;}
+.cronica_bolsa .wrap.cabecera .seccion {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_titular_cronica_bolsa.png") no-repeat left top transparent;}
+
+.directo_noticia .wrap.cabecera .logotipo, .cronica_bolsa .wrap.cabecera .logotipo {position:absolute;top:0;left:0;height:22px;width:127px;text-indent:-9999px} 
+.directo_noticia .wrap.cabecera .logotipo {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion_azul.png") no-repeat left top transparent;}
+.directo_noticia .wrap.cabecera .logotipo:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion_azul_hover.png") no-repeat left top transparent;}
+.cronica_bolsa .wrap.cabecera .logotipo {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion.png") no-repeat left top transparent;}
+.cronica_bolsa .wrap.cabecera .logotipo:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion_hover.png") no-repeat left top transparent;}
+
+.cronica_bolsa .wrap.cabecera .logotipo_mercados {position:absolute;top:0;left:32px;height:22px;width:170px;text-indent:-9999px} 
+.cronica_bolsa .wrap.cabecera .logotipo_mercados {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion_mercados.png") no-repeat left top transparent;}
+.cronica_bolsa .wrap.cabecera .logotipo_mercados:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/tab_logotipo_expansion_mercados_hover.png") no-repeat left top transparent;}
+
+.cronica_bolsa .wrap.cabecera .home {height: 22px;left: 0;position: absolute;text-indent: -9999px;top: 0;width: 26px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_home_migas_cronica_bolsa.png") no-repeat left top transparent;}
+.cronica_bolsa .wrap.cabecera .home:hover {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_home_migas_cronica_bolsa_hover.png");}
+
+.cronica_bolsa .wrap.cabecera #cabecera {bottom:11px;}
+
+.cronica_bolsa .noticia .compartir {margin-bottom:15px;}
+.cronica_bolsa .noticia .media {margin: 10px 20px 10px 0;}
+
+.cronica_bolsa .contenido.principal {padding-top:0;overflow:hidden;padding-bottom:20px;}
+.cronica_bolsa .ticker_valores {margin-top:0}
+
+/* MÓDULOS */
+.cronica_bolsa .modulo h5, .cronica_bolsa .modulo h5 a {color:#073b05!important}
+.cronica_bolsa .modulo {border-top-color:#073b05}
+.cronica_bolsa ul.navegacion li {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_izquierda_invest.png") no-repeat left top transparent!important;}
+.cronica_bolsa ul.navegacion li a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_derecha_invest.png") no-repeat right top transparent!important;}
+.cronica_bolsa ul.navegacion li.activaJs {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/pestanas/pestana_gris_izquierda.png") no-repeat left top transparent!important;}
+.cronica_bolsa ul.navegacion li.activaJs a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/pestanas/pestana_gris_derecha.png") no-repeat right top transparent!important;}
+.cronica_bolsa ul.navegacion li:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_izquierda_hover.png") no-repeat left top transparent!important;}
+.cronica_bolsa ul.navegacion li:hover a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_derecha_hover.png") no-repeat right top transparent!important;}
+.cronica_bolsa .botonera a:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_gris_izquierda_hover_invest.png") no-repeat left top transparent!important;}
+.cronica_bolsa .botonera a:hover span {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_gris_derecha_hover_invest.png") no-repeat right top transparent!important;}
+.cronica_bolsa a.boton_mas:hover {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/mas_hover_invest.png") no-repeat left top transparent!important;}
+
+/* Módulo Agenda */
+.cronica_bolsa .modulo.agenda a:hover {color:#073b05}
+.cronica_bolsa .modulo.agenda ul.ultima_hora a:hover {color:#39633B!important}
+
+/* Módulo Ánalisis fundamental */
+.cronica_bolsa .modulo.analisis_fundamental .noticia {padding:10px 0;margin-bottom:10px;border:0}
+.cronica_bolsa .modulo.analisis_fundamental .noticia p {font-size:12px;line-height:18px;}
+.cronica_bolsa .modulo.analisis_fundamental .noticia h2 a:hover {color:#39633B!important}
+.cronica_bolsa .modulo.analisis_fundamental table a:hover {color:#39633B!important}
+.cronica_bolsa .modulo.analisis_fundamental .doble.izquierda,
+.cronica_bolsa .modulo.analisis_fundamental .doble.derecha {padding:0;width:278px!important}
+
+/* Módulo Análisis */
+.cronica_bolsa #analisis_blogs a {color:#073b05}
+.cronica_bolsa #analisis_blogs h4 a:hover {color:#39633B!important}
+
+/* Módulo Hemeroteca */
+.cronica_bolsa .hemeroteca .modulo.hemeroteca {border-top-color: #073B05;}
+
+/* COMENTARIOS */
+.cronica_bolsa .numero_comentario {background: -moz-linear-gradient(center top , #345E33 0%, #093D07 100%) repeat scroll 0 0 transparent;}
+.cronica_bolsa .comentarios_pestanas h4 strong {color: #073B05;}
+.cronica_bolsa .comentarios_pestanas ul li {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_izquierda_invest.png") no-repeat scroll left top transparent;}
+.cronica_bolsa .comentarios_pestanas ul li a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_derecha_invest.png") no-repeat scroll right top transparent;}
+.cronica_bolsa #comentar {padding-bottom:40px;}
+.cronica_bolsa #comentar h5 {padding-top:0}
+.cronica_bolsa #comentar a {color:#073B05}
+.cronica_bolsa #comentar a:hover {color:#39633B}
+.cronica_bolsa #listado_comentarios a {color:#073B05}
+.cronica_bolsa #listado_comentarios a:hover {color:#39633B}
+.cronica_bolsa div#comentarios div.comentario p.nombre span.nombre_usuario {color: #073B05;}
+
+
+.cronica_bolsa .rastro_migas {height: 22px;left:0;position:absolute;text-indent:-9999px;top:0;width:300px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_rastro_migas_cronica_bolsa.png") no-repeat left top transparent;}
+
+.directo_noticia #tamano .media,
+.cronica_bolsa #tamano .media {margin-top:10px;}
+.directo_noticia.noticia, .cronica_bolsa.noticia {border:0!important}
+.directo_noticia .noticia, .cronica_bolsa .noticia {margin:0;padding:0;overflow:hidden;}
+.directo_noticia .noticia h1, .cronica_bolsa .noticia h1 {margin-bottom:20px;}
+.directo_noticia .noticia p, .cronica_bolsa .noticia p {font-size:14px;line-height:20px;margin-top:6px}
+.directo_noticia .noticia .metadatos, .cronica_bolsa .noticia .metadatos {clear:none;float:none;width:auto!important}
+.directo_noticia .noticia .metadatos span, .cronica_bolsa .noticia .metadatos span {float:none!important}
+
+.directo_noticia.noticia #contenedor div#comentarios div.comentario p, .directo_noticia.noticia div#comentarios div.comentario p,
+.cronica_bolsa #contenedor div#comentarios div.comentario p, .cronica_bolsa div#comentarios div.comentario p {margin-top:0}
+
+.minuto_a_minuto .botonera {background:#F4F4F4;margin:0;padding:10px;border-top:1px solid #EBEBEB}
+.minuto_a_minuto .botonera span {float:left;height: 19px;padding: 0 18px 0 4px;background-position:right top!important}
+
+/* Botones de navegación para crónica de bolsa */
+.cronica_bolsa .contenido_superior #navegacion_principal li a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/nav_izquierda_invest.png") no-repeat left top transparent;}
+.cronica_bolsa .contenido_superior #navegacion_principal li a span {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/nav_derecha_invest.png") repeat-x right top transparent;}
+
+.cronica_bolsa .minuto_a_minuto h5 {color:#073B05!important; background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_reloj_portada_mercados.png") no-repeat 15px 5px transparent;}
+.cronica_bolsa .minuto_a_minuto h5 span {color:#8ea18d!important}
+.cronica_bolsa .minuto_a_minuto h6 a:hover {color:#073B05!important}
+.cronica_bolsa .comentarios_minuto_a_minuto h5 {color:#073B05!important}
+.cronica_bolsa .comentarios_minuto_a_minuto .metadatos .autor {color:#073B05!important}
+
+.cronica_bolsa .noticia a {color:#073b05}
+.cronica_bolsa .noticia a:hover {color:#39633B}
+
+/* Icono play reproductor en crónica de bolsa */
+.cronica_bolsa .cubre_reproductor_nuevo .btn_play {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_play_verde.png") no-repeat left bottom transparent;}
+.cronica_bolsa .cubre_reproductor_nuevo a.boton_play:hover .btn_play {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/botones/boton_play_verde_hover.png")!important;}
+.cronica_bolsa .cubre_reproductor_nuevo a.boton_play:hover {background:none}
+
+
+/* Bloque MINUTO A MINUTO en detalle de noticia */
+.minuto_a_minuto {position:relative;float:left;width:673px;overflow:hidden;margin:25px 0;border:1px solid #c8c8c8;padding:0;}
+.minuto_a_minuto .cabecera {float:left;width:670px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_cabecera_minuto_a_minuto.png") no-repeat left top;height:58px;padding-top:10px;border:1px solid #ebebeb}
+.minuto_a_minuto h5 {background: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_reloj.png) no-repeat 15px top;font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:18px!important;color:#336699!important;padding:5px 0 6px 70px;margin:0;border:0}
+.minuto_a_minuto h5 a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/flechas_ir_a_minuto_a_minuto.png") no-repeat 146px 24px transparent;display:block;width:200px}
+.minuto_a_minuto h5 a:hover {color:#12668c!important}
+.minuto_a_minuto h5 span {font-size:14px;font-weight:normal;float:left;width:100%;color:#98abc2;}
+.minuto_a_minuto h6 {color:#333;font: bold 14px/18px Arial,Helvetica,Sans-serif;margin:0;padding:0;text-transform: none;}
+.minuto_a_minuto h6 a {color:#333}
+.minuto_a_minuto h6 a:hover {color:#336699}
+.minuto_a_minuto .antetitulo {color:#999;font-weight:bold;float:left;font-size:14px;padding:2px 6px 0 0;margin-right:6px!important;border-right:1px dotted #ccc;text-transform:uppercase}
+			
+.minuto_a_minuto .noticia {overflow:hidden;}
+.minuto_a_minuto .noticia p {font-size:14px;line-height:20px;}			
+.minuto_a_minuto .noticias {position:relative;float:left;*float:none;overflow:hidden;}
+.minuto_a_minuto .noticias p {padding:0}
+.minuto_a_minuto .firma {color:#999;font-size:12px!important}
+.minuto_a_minuto .hora {font-size:12px!important;font-weight:bold;position:absolute;left:15px;top:6px;color:#666;margin-top:5px;}
+
+.minuto_a_minuto .experto_bolsa.conthe, .minuto_a_minuto .experto_bolsa.hodar, .minuto_a_minuto .apertura, .minuto_a_minuto .dato_macro, .minuto_a_minuto .cambio_tendencia, .minuto_a_minuto .resultados_empresa, .minuto_a_minuto .urgente {min-height:45px;height:auto !important;height:45px;}
+
+.minuto_a_minuto .sin_categoria {padding-left:60px!important}
+.minuto_a_minuto .opinion {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_opinion_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .experto_bolsa.conthe {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_experto_bolsa_conthe.png") no-repeat 58px 15px}
+.minuto_a_minuto .experto_bolsa.hodar {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_experto_bolsa_hodar.png") no-repeat 58px 15px}
+.minuto_a_minuto .apertura {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_apertura_minuto_a_minuto.png") no-repeat 58px 13px}
+.minuto_a_minuto .dato_macro {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_dato_macro_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .cambio_tendencia {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_cambio_tendencia_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .resultados_empresa {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_resultados_empresa_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .cnmv {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_cnmv_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .urgente {background: #fff2f0 url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_urgente_minuto_a_minuto.png") no-repeat 58px 15px}
+.minuto_a_minuto .urgente h6 a {color:#cc3a1d}
+			
+.minuto_a_minuto ul {height:auto;overflow:hidden;float:left;width:100%;*width:655px}
+.minuto_a_minuto ul li {border-bottom:1px solid #ebebeb;padding:12px 25px 12px 112px;position:relative}
+.minuto_a_minuto .opciones_carrusel {position:absolute;right:-1px;top:39px;margin:0}
+			
+.minuto_a_minuto .opciones_carrusel a {display:inline-block;float:left;height:29px;text-indent:-9999px;width:29px;border:1px solid #ebebeb;margin-left:-1px;background:#fff}
+			
+.minuto_a_minuto .opciones_carrusel #start {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_play_minuto_a_minuto_28x28.png");}
+.minuto_a_minuto .opciones_carrusel #start:hover,
+.minuto_a_minuto .opciones_carrusel #start.activo,
+.minuto_a_minuto .opciones_carrusel #start.activo:hover {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_play_minuto_a_minuto_hover_28x28.png");}
+			
+.minuto_a_minuto .opciones_carrusel #stop {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_stop_minuto_a_minuto_28x28.png");}
+.minuto_a_minuto .opciones_carrusel #stop:hover,
+.minuto_a_minuto .opciones_carrusel #stop.activo,
+.minuto_a_minuto .opciones_carrusel #stop.activo:hover {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_stop_minuto_a_minuto_hover_28x28.png");}
+			
+.minuto_a_minuto .opciones_carrusel #refresh {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_refresh_minuto_a_minuto_28x28.png");}
+.minuto_a_minuto .opciones_carrusel #refresh:hover,
+.minuto_a_minuto .opciones_carrusel #refresh.activo,
+.minuto_a_minuto .opciones_carrusel #refresh.activo:hover {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_refresh_minuto_a_minuto_hover_28x28.png");}
+
+.minuto_a_minuto #resultados_minuto {overflow-x:hidden!important;position:relative}
+.minuto_a_minuto #resultados_minuto a {color:#336699}
+.minuto_a_minuto #resultados_minuto a:hover {color:#12668c}
+body#invest .minuto_a_minuto #resultados_minuto a {color:#073b05}
+body#invest .minuto_a_minuto #resultados_minuto a:hover {color:#12668c}
+.cronica_bolsa .minuto_a_minuto #resultados_minuto a {color:#073b05}
+.cronica_bolsa .minuto_a_minuto #resultados_minuto a:hover {color:#39633B}
+
+
+
+/* COMENTARIOS MINUTO A MINUTO */
+.modulo.comentarios_minuto_a_minuto {border-top: 1px solid #C8C8C8}
+.comentarios_minuto_a_minuto h5 {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_encabezado_comentarios_minuto_a_minuto.png") no-repeat left bottom transparent;border-bottom: 1px solid #CCC;color: #369;font-size: 18px;font-weight: bold;line-height: 20px;margin: 0;padding: 10px 0 10px 10px;}
+.comentarios_minuto_a_minuto h4 {font-family:Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;font-size:12px;}
+.comentarios_minuto_a_minuto h4 a {color:#666}
+.comentarios_minuto_a_minuto .interior {margin:0;padding:0!important}
+.comentarios_minuto_a_minuto .metadatos {font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.comentarios_minuto_a_minuto .metadatos .autor {color:#369}
+.comentarios_minuto_a_minuto .metadatos .fecha {font-style:normal;font-weight:normal}
+.comentarios_minuto_a_minuto .metadatos .hora {background: none!important;float:none;display:inline;font-size:12px;line-height:14px;padding:0 5px;}
+				
+.comentarios_minuto_a_minuto ol li:first-child {border:0}
+.comentarios_minuto_a_minuto ol li {padding:10px 15px;margin:0;border-top:1px solid #EBEBEB;border-bottom:0!important;background:#fff;min-height:50px;height:auto!important;height:50px; width:306px;}
+
+.comentarios_minuto_a_minuto .botonera {background:#F4F4F4;border-top: 1px solid #EBEBEB;margin:0;padding:10px;}
+
+#minuto_a_minuto_portada .comentarios_minuto_a_minuto h5 {background: none;border-bottom:1px solid #EBEBEB}
+
+
+/* MÓDULO TWITTER */
+#minuto_a_minuto_portada .modulo.twitter {margin:0;}
+.modulo.twitter {border: 0;border-right-color:#c8c8c8;background:transparent!important;padding:0;clear:none;width:auto;float:right;}
+.contenido_secundario .modulo.twitter, .contenido_terciario .modulo.twitter {width: 298px!important;border:1px solid #bbb}
+.modulo.twitter h4 {padding-left:38px!important;font-family:Arial, Helvetica, sans-serif;font-weight:bold;font-size:18px!important;}
+.modulo.twitter h3 {padding-left:39px!important}
+.modulo.twitter .twtr-hd {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_modulo_twitter.png) repeat-x left bottom!important;padding:10px 20px;}
+.modulo.twitter .twtr-ft div {padding: 12px 10px;}
+.modulo.twitter .twtr-ft {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/logo_modulo_twitter.png) no-repeat 10px 10px #deeef4!important;}
+.modulo.twitter .twtr-ft a img {display: none;}
+.modulo.twitter .twtr-bd {padding: 0 10px;background:#deeef4}
+
+/* CLAVES DEL DÍA */
+.minuto_a_minuto .claves_del_dia {height:22px;background-color:#f4f4f4;border-bottom:1px solid #EBEBEB;padding:8px 15px;font-family:Arial, Helvetica, sans-serif;}
+.minuto_a_minuto .claves_del_dia .mancheta {background:url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_claves_del_dia_minuto_a_minuto.png) no-repeat left top;width:105px;color:#fff;font-weight:bold;font-family:Arial, Helvetica, sans-serif;padding:3px 0 3px 10px;float:left;}
+.minuto_a_minuto .claves_del_dia .titulares {float:left;padding:0;}
+.minuto_a_minuto .claves_del_dia .titulares ul li {font-size:14px;font-weight:normal;padding:3px 0;border:0!important}
+.minuto_a_minuto .claves_del_dia .titulares ul li a {color:#333}
+.minuto_a_minuto .claves_del_dia .titulares #vertical-ticker {height:22px;margin:0;overflow:hidden;padding:0; position:relative !important;}
+.minuto_a_minuto #moveme_pulso {height: 30px !important;}
+
+.minuto_a_minuto .claves_del_dia .opciones_carrusel_claves {position:absolute;right:10px;top:4px;margin:0}
+.minuto_a_minuto .claves_del_dia .opciones_carrusel_claves #ticker-next {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/icono_next_carrusel_claves.png");}
+.minuto_a_minuto .claves_del_dia .opciones_carrusel_claves #ticker-previous {background-image: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/icono_previous_carrusel_claves.png");}
+.minuto_a_minuto .claves_del_dia .opciones_carrusel_claves a {display:block;height: 14px;text-indent: -9999px;width: 14px;}
+
+/* FILTRAR BÚSQUEDAS */
+.minuto_a_minuto .filtrar_busqueda {height:22px;float:left;border-bottom:1px solid #EBEBEB;font-family:Arial, Helvetica, sans-serif;padding:7px 15px 9px;width:640px;overflow:hidden;}
+.minuto_a_minuto .filtrar_busqueda span {float:left;margin-right:5px;padding-top:4px;}
+.minuto_a_minuto .filtrar_busqueda ul {float:left;width:auto;}
+.minuto_a_minuto .filtrar_busqueda ul li {padding:0;border:0;overflow:hidden;float:left;margin-right:5px;color:#333;font-size:11px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_izq_tag_busqueda_minuto_a_minuto.png") no-repeat left top transparent;}
+.minuto_a_minuto .filtrar_busqueda ul li a {background: url("http://estaticos01.expansion.com/iconos/v2.x/v2.0/fondos/bg_dcha_tag_busqueda_minuto_a_minuto.png") no-repeat right top transparent;margin: 0 0 0 7px;padding: 4px 6px 4px 0;float: left;color:#333}
+.minuto_a_minuto .filtrar_busqueda ul li.activo {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_izq_tag_busqueda_minuto_a_minuto_activo.png") no-repeat left top transparent;color:#fff}
+.minuto_a_minuto .filtrar_busqueda ul li.activo a {background: url("http://estaticos01.expansion.com/iconos/v2.x/v2.0/fondos/bg_dcha_tag_busqueda_minuto_a_minuto_activo.png") no-repeat right top transparent;font-weight:bold;color:#fff}
+
+
+
+/* FILTRAR BÚSQUEDAS 
+.minuto_a_minuto .filtrar_busqueda {height:22px;float:left;border-bottom:1px solid #EBEBEB;font-family:Arial, Helvetica, sans-serif;padding:7px 15px 9px;width:640px;overflow:hidden;}
+.minuto_a_minuto .filtrar_busqueda span {float:left;margin-right:5px;padding-top:4px;}
+.minuto_a_minuto .filtrar_busqueda ul {float:left;width:auto;}
+.minuto_a_minuto .filtrar_busqueda ul li {padding:0;border:0;overflow:hidden;float:left;margin-right:5px;}
+.minuto_a_minuto .filtrar_busqueda ul li a {float:left;padding:0;color:#333;font-size:11px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_izq_tag_busqueda_minuto_a_minuto.png") no-repeat left top transparent;}
+.minuto_a_minuto .filtrar_busqueda ul li a span {margin:0 0 0 7px;padding:4px 6px 4px 0;background: url("http://estaticos01.expansion.com/iconos/v2.x/v2.0/fondos/bg_dcha_tag_busqueda_minuto_a_minuto.png") no-repeat right top transparent;}
+.minuto_a_minuto .filtrar_busqueda ul li.activo a {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_izq_tag_busqueda_minuto_a_minuto_activo.png") no-repeat left top transparent;color:#fff}
+.minuto_a_minuto .filtrar_busqueda ul li.activo a span {background: url("http://estaticos01.expansion.com/iconos/v2.x/v2.0/fondos/bg_dcha_tag_busqueda_minuto_a_minuto_activo.png") no-repeat right top transparent;}
+.minuto_a_minuto .filtrar_busqueda ul li.activo a span {font-weight:bold} */
+
+
+
+/* Bloque MINUTO A MINUTO en portada */
+#minuto_a_minuto_portada {overflow:hidden;border:1px solid #C8C8C8;margin-bottom:20px;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/bg_minuto_a_minuto_portada.png") repeat-x left top transparent;}
+#minuto_a_minuto_portada .minuto_a_minuto {margin:0;padding-top:10px;border:0!important}
+#minuto_a_minuto_portada .minuto_a_minuto .cabecera {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/sombra_separadora_minuto_a_minuto_portada.png") no-repeat left top;border-top:0;padding-top:15px;}
+#minuto_a_minuto_portada .minuto_a_minuto .noticias {background:#fff;width:100%}
+#minuto_a_minuto_portada .minuto_a_minuto h6 {font: bold 12px/16px Arial,Helvetica,Sans-serif;}
+#minuto_a_minuto_portada .noticia {border:0;overflow:hidden;padding:15px 20px;margin:0;}
+#minuto_a_minuto_portada .noticia ul.meta_herramientas {margin-top:7px;}
+#minuto_a_minuto_portada .noticia p {line-height:18px;}
+#minuto_a_minuto_portada .noticia .metadatos {margin-bottom:2px;}
+#minuto_a_minuto_portada .modulo.comentarios_minuto_a_minuto {width:336px;clear:none;float:left;border-left:0;border-bottom:0;border-top:0;margin:0;border-right:1px solid #c8c8c8}
+#minuto_a_minuto_portada p.firma {display:none}
+#minuto_a_minuto_portada .minuto_a_minuto .opciones_carrusel {top:53px;}
+/* esto es únicamente para IE7 */
+#minuto_a_minuto_portada .media {overflow:visible}
+#minuto_a_minuto_portada .modulos_adicionales {float:left;background: url(http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/sombra_separadora_minuto_a_minuto_portada.png) no-repeat left top transparent;border-top: 0 none;padding-top: 5px;overflow:hidden;}
+#minuto_a_minuto_portada .ancho_simple {width:336px!important;}
+#minuto_a_minuto_portada .ancho_doble {width:auto!important;}
+#minuto_a_minuto_portada .comentarios_minuto_a_minuto.ancho_doble {border-right:0!important;}
+
+#invest .destacado.ancho_completo {margin-top:0}
+
+#portada .minuto_a_minuto .noticias p,
+#invest .minuto_a_minuto .noticias p {margin:5px 0 0;line-height:18px;}
+
+#portada .minuto_a_minuto h5 {background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_reloj_portada.png") no-repeat 15px 5px transparent;}
+
+#invest .minuto_a_minuto h5 {color:#073B05!important; background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/icono_reloj_minuto_a_minuto_mercados.png") no-repeat 15px top transparent;}
+#invest .minuto_a_minuto h5 a {color:#073b05!important;background: url("http://estaticos.expansion.com/iconos/v2.x/v2.0/fondos/flechas_ir_a_minuto_a_minuto_mercados.png") no-repeat 146px 24px transparent;display:block;width:200px}
+#invest .minuto_a_minuto h5 a:hover {color:#39633B!important}
+#invest .minuto_a_minuto h5 span {color:#8ea18d!important}
+
+
+/* HISTÓRICO Crónica de Bolsa */
+.bloque .resultados_historico {clear: both;padding: 10px 15px 15px!important;}
+.bloque .resultados_historico li:first-child {border-top: 0;}
+.bloque .resultados_historico li {border-bottom: 1px dotted #DDD;display: block;overflow: hidden;padding: 10px 0;}
+.bloque .resultados_historico li h2 {color:#333;font-family: Georgia,Times,Serif;font-size: 18px;font-weight: normal;line-height: 20px;text-transform: none !important;}
+.bloque .resultados_historico span.fecha_publicacion {color:#073b05;font-weight:bold;font-size:14px;background: #D8F6D7;border:1px solid #ddd!important;color: #222;display: block;height: 16px;margin-right: 10px;margin: 2px 0 8px;padding:4px 4px 2px;text-align: left;width:75px}
+
+#resultados {float:left;overflow:hidden;position:relative}
+#resultados .num_resultados {background: #073b05;border: 1px solid #999;color: #FFF !important;float: left;font-size: 11px;    font-weight: normal;margin: 12px 0 0 5px;padding: 2px 5px;position:absolute;*position:relative;top:5px;left:10px}
+
+#resultados #paginacion {padding-right:10px;}
+#resultados #paginacion .active {margin: 0 5px 0 0 !important;padding: 0 !important;background-color: #073b05;border: 1px solid #999;
+color: #FFF;font-family: Arial,Helvetica,sans-serif;font-size: 11px;font-weight: bold;}
+#resultados #paginacion .active a {background-color: #073b05;border: 0;color: #FFF;text-decoration: none;}
+#resultados #paginacion .active a:hover {border: 0!important;color: #FFF!important;}
+#resultados #paginacion.inferior {margin-bottom:20px;}
